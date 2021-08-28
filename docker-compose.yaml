@@ -1,0 +1,23 @@
+version: "3.9"
+services:
+  frontend:
+    image: marceloluizfranca/frontend:latest
+    ports:
+      - "5000:5000"
+    networks:
+      - frontend
+  api01:
+    build: services/api01
+    ports:
+      - "8080:8081"
+    networks:
+      - backend
+  api02:
+    build: services/api02
+    ports:
+      - "8081:8080"
+    networks:
+      - backend
+
+networks:
+  frontend:

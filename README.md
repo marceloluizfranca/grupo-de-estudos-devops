@@ -1,10 +1,11 @@
 # Grupo de Estudos Devops
 ## _Capítulo de hoje: Docker e DockerCompose_
-O objetivo dessa semana é subir uma rede onde deve existir um frontend e duas APIs.
-O frontend deve ser capaz de se comunicar com as apis, para poder fazer requisições via GET.
-O frontend é feito em html com javascript, uma api é feita em python e outra feita em nodeJS.
-Quando o frontend se comunica com os outros serviços a tela abaixo deve ser obtida:
+- O objetivo dessa semana é subir uma rede onde deve existir um frontend e duas APIs.
+- O frontend deve ser capaz de se comunicar com as apis, para poder fazer requisições via GET.
+- O frontend é feito em html com javascript, uma api é feita em python e outra feita em nodeJS.
+- Quando o frontend se comunica com os outros serviços a tela abaixo deve ser obtida:
 ![image](status.PNG)
+
 ## Instruções
 - O frontend deve rodar na porta 5000/tcp.
 - A API01 deve rodar na porta 8080/tcp.
